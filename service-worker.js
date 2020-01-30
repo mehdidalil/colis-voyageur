@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/colis-voyageur/precache-manifest.3bbf05233c171785766beb578e109ae0.js"
+  "/colis-voyageur/precache-manifest.d6fb1924020beaaa99669530f1378b01.js"
 );
 
 self.addEventListener('message', (event) => {
