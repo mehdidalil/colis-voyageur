@@ -24,6 +24,7 @@ const MenuList = () => {
 		<div style={{marginTop: "20px"}}>
 			<Logo medium />
 			<List className={classes.list}>
+				<MenuListItem text="Accueil" component={RouterLink} to="/" />
 				<MenuListItem text="Connexion" icon={<AccountCircleIcon />} component={RouterLink} to="/login" />
 				<MenuListItem text="Inscription" icon={<CreateIcon />} component={RouterLink} to="/create" />
 				<ListSubheader>

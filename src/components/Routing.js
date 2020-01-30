@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route, HashRouter} from 'react-router-dom';
 import { Login, Create } from './account';
 import { Container, makeStyles } from '@material-ui/core';
 import { Menu, Footer } from './menu';
@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
 const Routing = () => {
 	const classes = useStyles();
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Menu />
 			<Container className={classes.container}>
 				<Route exact path="/" component={HomeView} />
@@ -25,7 +25,7 @@ const Routing = () => {
 				<Route path="/travels" component={TravelListView} />
 				<Route path="/requests" component={RequestListView} />
 			</Container>
-		</BrowserRouter>
+		</HashRouter>
 	)
 };
 
