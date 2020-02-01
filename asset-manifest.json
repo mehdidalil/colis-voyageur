@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/colis-voyageur/static/js/main.58fcf6e3.chunk.js",
-    "main.js.map": "/colis-voyageur/static/js/main.58fcf6e3.chunk.js.map",
+    "main.js": "/colis-voyageur/static/js/main.bfac3919.chunk.js",
+    "main.js.map": "/colis-voyageur/static/js/main.bfac3919.chunk.js.map",
     "runtime-main.js": "/colis-voyageur/static/js/runtime-main.c464819d.js",
     "runtime-main.js.map": "/colis-voyageur/static/js/runtime-main.c464819d.js.map",
-    "static/js/2.0aaddd08.chunk.js": "/colis-voyageur/static/js/2.0aaddd08.chunk.js",
-    "static/js/2.0aaddd08.chunk.js.map": "/colis-voyageur/static/js/2.0aaddd08.chunk.js.map",
+    "static/js/2.630f02f0.chunk.js": "/colis-voyageur/static/js/2.630f02f0.chunk.js",
+    "static/js/2.630f02f0.chunk.js.map": "/colis-voyageur/static/js/2.630f02f0.chunk.js.map",
     "index.html": "/colis-voyageur/index.html",
-    "precache-manifest.699c62ec10499e7ad223de06ee969abe.js": "/colis-voyageur/precache-manifest.699c62ec10499e7ad223de06ee969abe.js",
+    "precache-manifest.c502a297e338648601faf65ea62ae186.js": "/colis-voyageur/precache-manifest.c502a297e338648601faf65ea62ae186.js",
     "service-worker.js": "/colis-voyageur/service-worker.js",
-    "static/js/2.0aaddd08.chunk.js.LICENSE": "/colis-voyageur/static/js/2.0aaddd08.chunk.js.LICENSE"
+    "static/js/2.630f02f0.chunk.js.LICENSE": "/colis-voyageur/static/js/2.630f02f0.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.c464819d.js",
-    "static/js/2.0aaddd08.chunk.js",
-    "static/js/main.58fcf6e3.chunk.js"
+    "static/js/2.630f02f0.chunk.js",
+    "static/js/main.bfac3919.chunk.js"
   ]
 }
