@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Drawer, useTheme, SwipeableDrawer } from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, SwipeableDrawer } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import { makeStyles } from '@material-ui/styles';
 import MenuList from './MenuList';

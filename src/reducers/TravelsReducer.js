@@ -1,9 +1,7 @@
 const TravelsReducer = () => ([
 	{
-		user: {
-			name: "Mehdi Dalil",
-			city: "Paris"
-		},
+		id: 0,
+		userId: 1,
 		departure: "Paris (France)",
 		arrival: "Tizi Ouzou (Algerie)",
 		desc: "Bonjour, je fais Paris / Tizi Ouzou en avion et j'ai 20 kg de libre dans mes bagages.",
@@ -15,10 +13,8 @@ const TravelsReducer = () => ([
 		type: "flight"
 	},
 	{
-		user: {
-			name: "Lyes Nino",
-			city: "Paris"
-		},
+		id: 1,
+		userId: 2,
 		departure: "Paris (France)",
 		arrival: "Los Angeles (Etats Unis)",
 		desc: "Bonjour, je fais Paris / Los Angeles en avion et j'ai pas mal de place libre dans mon bagage.",
@@ -30,10 +26,8 @@ const TravelsReducer = () => ([
 		type: "flight"
 	},
 	{
-		user: {
-			name: "Lyes Nino",
-			city: "Paris"
-		},
+		id: 2,
+		userId: 2,
 		departure: "Paris (France)",
 		arrival: "Miami (Etats Unis)",
 		desc: "Bonjour, je dois aller voir mon ami Rick Ross a Miami n'hesitez pas si vous devez faire transporter des bagages a Miami.",
@@ -45,10 +39,8 @@ const TravelsReducer = () => ([
 		type: "flight"
 	},
 	{
-		user: {
-			name: "Mehdi Dalil",
-			city: "Paris"
-		},
+		id: 3,
+		userId: 1,
 		departure: "Paris (France)",
 		arrival: "Marseille",
 		desc: "Bonjour, je vais a Marseille en Renault Espace j'ai pas mal de place dans mon coffre.",

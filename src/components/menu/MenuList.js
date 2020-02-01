@@ -31,10 +31,12 @@ const MenuList = () => {
 					Voyages
 				</ListSubheader>
 					<MenuListItem text="Consulter les voyages" component={RouterLink} to="/travels" />
+					<MenuListItem text="Créer un voyage" component={RouterLink} to="/travels/create" />
 				<ListSubheader>
 					Demandes
 				</ListSubheader>
 					<MenuListItem text="Consulter les demandes" component={RouterLink} to="/requests" />
+					<MenuListItem text="Créer une demande" component={RouterLink} to="/requests/create" />
 			</List>
 		</div>
 		

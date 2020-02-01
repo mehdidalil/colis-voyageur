@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, makeStyles, Grid, Chip, Typography, Checkbox, FormControlLabel, FormGroup } from '@material-ui/core';
+import { Paper, makeStyles, Grid, Typography, Checkbox, FormControlLabel, FormGroup } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
 	paper: {

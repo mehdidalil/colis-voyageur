@@ -1,8 +1,5 @@
 import React from 'react';
 import { Grid, makeStyles } from '@material-ui/core';
-import { TravelCard } from '../travel';
-import { RequestCard } from '../request';
-import { connect } from 'react-redux';
 import { FilterPanel } from '../panel';
 import { useInputState } from '../hooks';
 import initInputs from '../account/utils/initInputs';

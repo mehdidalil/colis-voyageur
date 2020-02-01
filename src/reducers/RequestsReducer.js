@@ -1,9 +1,6 @@
 const RequestsReducer = () => ([
 	{
-		user: {
-			name: "Mehdi Dalil",
-			city: "Paris"
-		},
+		userId: 1,
 		departure: "Paris (France)",
 		arrival: "Tizi Ouzou (Algerie)",
 		desc: "Bonjour, j'ai un colis de 3kg pas tres grand a transporter pour Tizi Ouzou.",
@@ -15,10 +12,7 @@ const RequestsReducer = () => ([
 		type: "small"
 	},
 	{
-		user: {
-			name: "Lyes Nino",
-			city: "Paris"
-		},
+		userId: 2,
 		departure: "Paris (France)",
 		arrival: "Moscou (Russie)",
 		desc: "Bonjour, j'ai un colis de 8kg un peu grand a transporter pour Moscou URGENT.",
@@ -30,10 +24,7 @@ const RequestsReducer = () => ([
 		type: "medium"
 	},
 	{
-		user: {
-			name: "Mehdi Dalil",
-			city: "Paris"
-		},
+		userId: 1,
 		departure: "Paris (France)",
 		arrival: "Madrid (Espagne)",
 		desc: "Bonjour, j'ai un colis de 15kg a transporter pour Madrid.",

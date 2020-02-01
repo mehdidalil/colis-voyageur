@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, makeStyles, TextField, Box, Typography, Avatar, Container, Button } from '@material-ui/core';
+import { Paper, makeStyles, Typography, Avatar, Container, Button } from '@material-ui/core';
 import { useInputState } from '../hooks';
 import AccountForm from './AccountForm';
 import initInputs from './utils/initInputs';
